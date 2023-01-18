@@ -1,6 +1,9 @@
 plugins {
     id 'com.android.application'
+    id 'kotlin-kapt'
     id 'org.jetbrains.kotlin.android'
+    id 'dagger.hilt.android.plugin'
+    id 'kotlin-parcelize'
 }
 
 android {
@@ -13,6 +16,9 @@ android {
         versionCode 1
         versionName "1.0"
 
+        //buildConfigFieldFromGradleProperty("apiBaseUrl")
+        buildConfigField "String", "BASE_URL", apiBaseUrl
+        buildConfigField "String", "XRAPID_API_KEY", xRapidApiKey
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -34,27 +40,60 @@ android {
     }
 
     composeOptions {
-        kotlinCompilerExtensionVersion compose_version
+        kotlinCompilerExtensionVersion Versions.composeVersion
     }
 }
 
 dependencies {
 
-    implementation 'androidx.core:core-ktx:1.7.0'
-    implementation "androidx.compose.ui:ui:$compose_version"
-    implementation "androidx.compose.material:material:$compose_version"
-    implementation "androidx.compose.ui:ui-tooling-preview:$compose_version"
-    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.3.1'
-    implementation 'androidx.activity:activity-compose:1.3.1'
-    testImplementation 'junit:junit:4.13.2'
-    testImplementation 'org.junit.jupiter:junit-jupiter'
+    //Kotlin
+    implementation Dependencies.coreKtx
+    //Compose
+    implementation Dependencies.composeUi
+    //Material
+    implementation Dependencies.material3
+    //Compose Preview
+    implementation Dependencies.uiTollingPreview
+    //Androidx lifecycle runtime
+    implementation Dependencies.lifecycleRuntimeKtx
+    //Androidx Compose
+    implementation Dependencies.activityCompose
+    //ViewModel Compose
+    implementation Dependencies.viewModelCompose
+    //Navigation Compose
+    implementation Dependencies.navigationCompose
+    //hilt-navigation-compose
+    implementation Dependencies.hiltNavigationCompose
 
+    //Retrofit
+    implementation Dependencies.retrofit
+    //Gson Converter
+    implementation Dependencies.gson_converter
+    //Gson
+    implementation Dependencies.gson
 
-    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
-    androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_version"
-    debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
-    debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_version"
+    //OkHttp
+    implementation Dependencies.okhttp
+    //Logging
+    implementation Dependencies.logging
+    //Hilt
+    implementation Dependencies.hilt
+    //HiltCompiler
+    kapt  Dependencies.hiltCompiler
+    //hilt viewmodel
+    implementation Dependencies.hilt_lifecycle_view_model
+
+    //module core internal
+     implementation project(Dependencies.coreInternal)
+
+    //Dependencies tests UI
+    testImplementation Dependencies.jUnit4
+    testImplementation Dependencies.jUnitJupiter
+    androidTestImplementation Dependencies.extJunit4
+    androidTestImplementation Dependencies.espressoCore
+    androidTestImplementation Dependencies.uiComposeTestJunit4
+    debugImplementation Dependencies.uiTolling
+    debugImplementation Dependencies.uiTestManifest
 //
 //    def composeBom = platform('androidx.compose:compose-bom:2022.12.00')
 //
