@@ -1,0 +1,312 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:2:1-29:12
+MERGED from [:core] /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.compose.ui:ui-tooling:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/6197e8291f5f662bb51701016e7e8a94/transformed/ui-tooling-1.1.0-beta01/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.compose.material3:material3:1.0.0-alpha01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/084924bda1d78c36bcae1c4e8e1339f8/transformed/material3-1.0.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.hilt:hilt-navigation-compose:1.0.0-alpha03] /Users/rodrigo.siqueira/gradle/caches/transforms-3/f1f0428aa02de32fc56f416dbd962eda/transformed/hilt-navigation-compose-1.0.0-alpha03/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-compose:2.4.0-alpha08] /Users/rodrigo.siqueira/gradle/caches/transforms-3/c16abf95e6a4a53b2f23040cc12b1f07/transformed/navigation-compose-2.4.0-alpha08/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-compose:1.3.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/f2b824798492f5f8ed9311af608a49b8/transformed/activity-compose-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:1.0.0-alpha07] /Users/rodrigo.siqueira/gradle/caches/transforms-3/d2344dcd476b74cc6dc1e99953885141/transformed/lifecycle-viewmodel-compose-1.0.0-alpha07/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-tooling-data:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/5be18ea01158ec2cf0a6840ca0b41546/transformed/ui-tooling-data-1.1.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material:material:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9d72cf42d4c70e919715a7bb857ebecf/transformed/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material:material-ripple:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/a6f832ce1417e5d4a9b6d5895b870ef9/transformed/material-ripple-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.foundation:foundation:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/d241cb705881bb9850fd23f7e1392ba2/transformed/foundation-1.1.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.animation:animation:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/762ecd6f3ad50eccac977f661ffff358/transformed/animation-1.1.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material:material-icons-core:1.0.2] /Users/rodrigo.siqueira/gradle/caches/transforms-3/a5dd0af2634c710144473e6f0cbac3c7/transformed/material-icons-core-1.0.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.animation:animation-core:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/251f438094d00bc9d4dd24ebb6290b31/transformed/animation-core-1.1.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.foundation:foundation-layout:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9d3916838f53004a973f6f47ad981f12/transformed/foundation-layout-1.1.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/a5e3874c94a350c2dc60fd1c12ffbde7/transformed/ui-1.1.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.0-alpha08] /Users/rodrigo.siqueira/gradle/caches/transforms-3/4a9f2c1db2201e3268767b18f3f78ac3/transformed/navigation-runtime-ktx-2.4.0-alpha08/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.hilt:hilt-navigation:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/dcc517cef7e3306e9d23fcad667c56a2/transformed/hilt-navigation-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.4.0-alpha08] /Users/rodrigo.siqueira/gradle/caches/transforms-3/da5e7f17cf5f785f84d993bc9aca8efc/transformed/navigation-runtime-2.4.0-alpha08/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.3.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/d25573536914aeba5d060a90466c013c/transformed/activity-ktx-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.0-alpha08] /Users/rodrigo.siqueira/gradle/caches/transforms-3/2d53a1ca2c248c27616e6df8d1e21282/transformed/navigation-common-ktx-2.4.0-alpha08/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.4.0-alpha08] /Users/rodrigo.siqueira/gradle/caches/transforms-3/8a01af538caf672a83dafa818f50fe54/transformed/navigation-common-2.4.0-alpha08/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/e121c7cd04d3d751c7e0fa127fb9033a/transformed/lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/7fcd78527403ad2ebde66eb784bae19c/transformed/ui-tooling-preview-1.1.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-text:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/48d4fd2fdb9b8f210e46f52590e8eb0f/transformed/ui-text-1.1.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.runtime:runtime-saveable:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/5294ea7a7e85181048a1ac873c4f6aaf/transformed/runtime-saveable-1.1.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-graphics:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/bd2fbeddfd6eac0c3aa9f4584f538d57/transformed/ui-graphics-1.1.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-unit:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/b82c80e057dec6e25e2149eb41a8b778/transformed/ui-unit-1.1.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-geometry:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/88a7494676b6fae0b1f5f4e61b770550/transformed/ui-geometry-1.1.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.runtime:runtime:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/d39eabe41e1a1a4a083aba029a9e7a93/transformed/runtime-1.1.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/1a951e5898c1b50a1b2d991548c2fe9b/transformed/lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9ddd7e5d34855b96fc65b3d179202cf1/transformed/ui-test-manifest-1.1.0-beta01/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/68677e22d181125302235874477c71cd/transformed/core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03] /Users/rodrigo.siqueira/gradle/caches/transforms-3/ca249c305a64ccb507bc0e4123f787bf/transformed/hilt-lifecycle-viewmodel-1.0.0-alpha03/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:hilt-android:2.39.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/880f81d16e62a8ca15fbda18e41e819a/transformed/hilt-android-2.39.1/AndroidManifest.xml:16:1-19:12
+MERGED from [androidx.compose.ui:ui-util:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/c09062df2449988c174c7b366f101ab4/transformed/ui-util-1.1.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/15f1f0e6739e93ecae574d528a1a73b7/transformed/savedstate-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/2f8f753902c7c23b0c9c40fd3c39d9a6/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.2] /Users/rodrigo.siqueira/gradle/caches/transforms-3/2df69518b41e5ce0e28cd9d30716c8ee/transformed/fragment-1.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.3.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/964e1e09fd1406d2cf0898965d783e0d/transformed/activity-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/7f61aadecf1d91c2998e5a51248b89d4/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/d01da66699ffd6d67fb2570b809f74bd/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9fbaeaf0c26e8753188d446de76f8c25/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/b235cddb1035b5fc160d08a78332565f/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/ca641b6c19c291cfae91581e2b6e7456/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9f8ab4abd33355023bee439d2ace2a0a/transformed/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/abbdf9b8ad3ed58992c165c328eef049/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:17:1-48:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/8c57df5456a30fadfbe846c21b5b2019/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/3c25c735fecca268b365762a92f5a7c5/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/34aacc4be5a8e29cd738d0885a4973f6/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9a3087e2e42878cda73efdbd13157091/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/f2dc1b7bf8e409bd7ceb71a1e7dddd0a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9e81e3e56ada8223a23d1ae9e7817cc4/transformed/startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/7edcf538d269a08a898ed1ad470647b7/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/5947fd5e886d7aed12eea932883867b6/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.39.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/5ebaa40dd53af592e1596d66648b5e71/transformed/dagger-lint-aar-2.39.1/AndroidManifest.xml:16:1-19:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/5c75e073226a6e056bbfe4d6ee6697c0/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:4:5-29
+		INJECTED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:7:5-27:19
+MERGED from [androidx.compose.ui:ui-tooling:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/6197e8291f5f662bb51701016e7e8a94/transformed/ui-tooling-1.1.0-beta01/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.compose.ui:ui-tooling:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/6197e8291f5f662bb51701016e7e8a94/transformed/ui-tooling-1.1.0-beta01/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9ddd7e5d34855b96fc65b3d179202cf1/transformed/ui-test-manifest-1.1.0-beta01/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9ddd7e5d34855b96fc65b3d179202cf1/transformed/ui-test-manifest-1.1.0-beta01/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.core:core:1.7.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/b235cddb1035b5fc160d08a78332565f/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/b235cddb1035b5fc160d08a78332565f/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/abbdf9b8ad3ed58992c165c328eef049/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:25:5-46:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/abbdf9b8ad3ed58992c165c328eef049/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:25:5-46:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/f2dc1b7bf8e409bd7ceb71a1e7dddd0a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/f2dc1b7bf8e409bd7ceb71a1e7dddd0a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9e81e3e56ada8223a23d1ae9e7817cc4/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9e81e3e56ada8223a23d1ae9e7817cc4/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/b235cddb1035b5fc160d08a78332565f/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:12:9-41
+	android:fullBackupContent
+		ADDED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:10:9-54
+	android:roundIcon
+		ADDED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:15:9-45
+	android:name
+		ADDED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:8:9-43
+activity#br.com.weather.presentation.ui.main.MainActivity
+ADDED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:17:9-26:20
+	android:exported
+		ADDED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:20:13-36
+	android:theme
+		ADDED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:19:13-49
+	android:name
+		ADDED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:18:13-62
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:24:27-74
+uses-sdk
+INJECTED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml
+MERGED from [:core] /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:core] /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.compose.ui:ui-tooling:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/6197e8291f5f662bb51701016e7e8a94/transformed/ui-tooling-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-tooling:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/6197e8291f5f662bb51701016e7e8a94/transformed/ui-tooling-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material3:material3:1.0.0-alpha01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/084924bda1d78c36bcae1c4e8e1339f8/transformed/material3-1.0.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material3:material3:1.0.0-alpha01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/084924bda1d78c36bcae1c4e8e1339f8/transformed/material3-1.0.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-navigation-compose:1.0.0-alpha03] /Users/rodrigo.siqueira/gradle/caches/transforms-3/f1f0428aa02de32fc56f416dbd962eda/transformed/hilt-navigation-compose-1.0.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-navigation-compose:1.0.0-alpha03] /Users/rodrigo.siqueira/gradle/caches/transforms-3/f1f0428aa02de32fc56f416dbd962eda/transformed/hilt-navigation-compose-1.0.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-compose:2.4.0-alpha08] /Users/rodrigo.siqueira/gradle/caches/transforms-3/c16abf95e6a4a53b2f23040cc12b1f07/transformed/navigation-compose-2.4.0-alpha08/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-compose:2.4.0-alpha08] /Users/rodrigo.siqueira/gradle/caches/transforms-3/c16abf95e6a4a53b2f23040cc12b1f07/transformed/navigation-compose-2.4.0-alpha08/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-compose:1.3.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/f2b824798492f5f8ed9311af608a49b8/transformed/activity-compose-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-compose:1.3.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/f2b824798492f5f8ed9311af608a49b8/transformed/activity-compose-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:1.0.0-alpha07] /Users/rodrigo.siqueira/gradle/caches/transforms-3/d2344dcd476b74cc6dc1e99953885141/transformed/lifecycle-viewmodel-compose-1.0.0-alpha07/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:1.0.0-alpha07] /Users/rodrigo.siqueira/gradle/caches/transforms-3/d2344dcd476b74cc6dc1e99953885141/transformed/lifecycle-viewmodel-compose-1.0.0-alpha07/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-tooling-data:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/5be18ea01158ec2cf0a6840ca0b41546/transformed/ui-tooling-data-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-tooling-data:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/5be18ea01158ec2cf0a6840ca0b41546/transformed/ui-tooling-data-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9d72cf42d4c70e919715a7bb857ebecf/transformed/material-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9d72cf42d4c70e919715a7bb857ebecf/transformed/material-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-ripple:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/a6f832ce1417e5d4a9b6d5895b870ef9/transformed/material-ripple-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-ripple:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/a6f832ce1417e5d4a9b6d5895b870ef9/transformed/material-ripple-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/d241cb705881bb9850fd23f7e1392ba2/transformed/foundation-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/d241cb705881bb9850fd23f7e1392ba2/transformed/foundation-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/762ecd6f3ad50eccac977f661ffff358/transformed/animation-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/762ecd6f3ad50eccac977f661ffff358/transformed/animation-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-icons-core:1.0.2] /Users/rodrigo.siqueira/gradle/caches/transforms-3/a5dd0af2634c710144473e6f0cbac3c7/transformed/material-icons-core-1.0.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-icons-core:1.0.2] /Users/rodrigo.siqueira/gradle/caches/transforms-3/a5dd0af2634c710144473e6f0cbac3c7/transformed/material-icons-core-1.0.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation-core:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/251f438094d00bc9d4dd24ebb6290b31/transformed/animation-core-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation-core:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/251f438094d00bc9d4dd24ebb6290b31/transformed/animation-core-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation-layout:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9d3916838f53004a973f6f47ad981f12/transformed/foundation-layout-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation-layout:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9d3916838f53004a973f6f47ad981f12/transformed/foundation-layout-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/a5e3874c94a350c2dc60fd1c12ffbde7/transformed/ui-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/a5e3874c94a350c2dc60fd1c12ffbde7/transformed/ui-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.0-alpha08] /Users/rodrigo.siqueira/gradle/caches/transforms-3/4a9f2c1db2201e3268767b18f3f78ac3/transformed/navigation-runtime-ktx-2.4.0-alpha08/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.0-alpha08] /Users/rodrigo.siqueira/gradle/caches/transforms-3/4a9f2c1db2201e3268767b18f3f78ac3/transformed/navigation-runtime-ktx-2.4.0-alpha08/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-navigation:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/dcc517cef7e3306e9d23fcad667c56a2/transformed/hilt-navigation-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-navigation:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/dcc517cef7e3306e9d23fcad667c56a2/transformed/hilt-navigation-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.4.0-alpha08] /Users/rodrigo.siqueira/gradle/caches/transforms-3/da5e7f17cf5f785f84d993bc9aca8efc/transformed/navigation-runtime-2.4.0-alpha08/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.4.0-alpha08] /Users/rodrigo.siqueira/gradle/caches/transforms-3/da5e7f17cf5f785f84d993bc9aca8efc/transformed/navigation-runtime-2.4.0-alpha08/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.3.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/d25573536914aeba5d060a90466c013c/transformed/activity-ktx-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.3.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/d25573536914aeba5d060a90466c013c/transformed/activity-ktx-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.0-alpha08] /Users/rodrigo.siqueira/gradle/caches/transforms-3/2d53a1ca2c248c27616e6df8d1e21282/transformed/navigation-common-ktx-2.4.0-alpha08/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.0-alpha08] /Users/rodrigo.siqueira/gradle/caches/transforms-3/2d53a1ca2c248c27616e6df8d1e21282/transformed/navigation-common-ktx-2.4.0-alpha08/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.4.0-alpha08] /Users/rodrigo.siqueira/gradle/caches/transforms-3/8a01af538caf672a83dafa818f50fe54/transformed/navigation-common-2.4.0-alpha08/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.4.0-alpha08] /Users/rodrigo.siqueira/gradle/caches/transforms-3/8a01af538caf672a83dafa818f50fe54/transformed/navigation-common-2.4.0-alpha08/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/e121c7cd04d3d751c7e0fa127fb9033a/transformed/lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/e121c7cd04d3d751c7e0fa127fb9033a/transformed/lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/7fcd78527403ad2ebde66eb784bae19c/transformed/ui-tooling-preview-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/7fcd78527403ad2ebde66eb784bae19c/transformed/ui-tooling-preview-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-text:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/48d4fd2fdb9b8f210e46f52590e8eb0f/transformed/ui-text-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-text:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/48d4fd2fdb9b8f210e46f52590e8eb0f/transformed/ui-text-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-saveable:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/5294ea7a7e85181048a1ac873c4f6aaf/transformed/runtime-saveable-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-saveable:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/5294ea7a7e85181048a1ac873c4f6aaf/transformed/runtime-saveable-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-graphics:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/bd2fbeddfd6eac0c3aa9f4584f538d57/transformed/ui-graphics-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-graphics:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/bd2fbeddfd6eac0c3aa9f4584f538d57/transformed/ui-graphics-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-unit:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/b82c80e057dec6e25e2149eb41a8b778/transformed/ui-unit-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-unit:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/b82c80e057dec6e25e2149eb41a8b778/transformed/ui-unit-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-geometry:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/88a7494676b6fae0b1f5f4e61b770550/transformed/ui-geometry-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-geometry:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/88a7494676b6fae0b1f5f4e61b770550/transformed/ui-geometry-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/d39eabe41e1a1a4a083aba029a9e7a93/transformed/runtime-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/d39eabe41e1a1a4a083aba029a9e7a93/transformed/runtime-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/1a951e5898c1b50a1b2d991548c2fe9b/transformed/lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/1a951e5898c1b50a1b2d991548c2fe9b/transformed/lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-test-manifest:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9ddd7e5d34855b96fc65b3d179202cf1/transformed/ui-test-manifest-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-test-manifest:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9ddd7e5d34855b96fc65b3d179202cf1/transformed/ui-test-manifest-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/68677e22d181125302235874477c71cd/transformed/core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/68677e22d181125302235874477c71cd/transformed/core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03] /Users/rodrigo.siqueira/gradle/caches/transforms-3/ca249c305a64ccb507bc0e4123f787bf/transformed/hilt-lifecycle-viewmodel-1.0.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03] /Users/rodrigo.siqueira/gradle/caches/transforms-3/ca249c305a64ccb507bc0e4123f787bf/transformed/hilt-lifecycle-viewmodel-1.0.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:hilt-android:2.39.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/880f81d16e62a8ca15fbda18e41e819a/transformed/hilt-android-2.39.1/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.39.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/880f81d16e62a8ca15fbda18e41e819a/transformed/hilt-android-2.39.1/AndroidManifest.xml:18:3-42
+MERGED from [androidx.compose.ui:ui-util:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/c09062df2449988c174c7b366f101ab4/transformed/ui-util-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-util:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/c09062df2449988c174c7b366f101ab4/transformed/ui-util-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/15f1f0e6739e93ecae574d528a1a73b7/transformed/savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/15f1f0e6739e93ecae574d528a1a73b7/transformed/savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/2f8f753902c7c23b0c9c40fd3c39d9a6/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/2f8f753902c7c23b0c9c40fd3c39d9a6/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.2] /Users/rodrigo.siqueira/gradle/caches/transforms-3/2df69518b41e5ce0e28cd9d30716c8ee/transformed/fragment-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.2] /Users/rodrigo.siqueira/gradle/caches/transforms-3/2df69518b41e5ce0e28cd9d30716c8ee/transformed/fragment-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.3.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/964e1e09fd1406d2cf0898965d783e0d/transformed/activity-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.3.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/964e1e09fd1406d2cf0898965d783e0d/transformed/activity-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/7f61aadecf1d91c2998e5a51248b89d4/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/7f61aadecf1d91c2998e5a51248b89d4/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/d01da66699ffd6d67fb2570b809f74bd/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/d01da66699ffd6d67fb2570b809f74bd/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9fbaeaf0c26e8753188d446de76f8c25/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9fbaeaf0c26e8753188d446de76f8c25/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/b235cddb1035b5fc160d08a78332565f/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/b235cddb1035b5fc160d08a78332565f/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/ca641b6c19c291cfae91581e2b6e7456/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/ca641b6c19c291cfae91581e2b6e7456/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9f8ab4abd33355023bee439d2ace2a0a/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9f8ab4abd33355023bee439d2ace2a0a/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/abbdf9b8ad3ed58992c165c328eef049/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/abbdf9b8ad3ed58992c165c328eef049/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/8c57df5456a30fadfbe846c21b5b2019/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/8c57df5456a30fadfbe846c21b5b2019/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/3c25c735fecca268b365762a92f5a7c5/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/3c25c735fecca268b365762a92f5a7c5/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/34aacc4be5a8e29cd738d0885a4973f6/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/34aacc4be5a8e29cd738d0885a4973f6/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9a3087e2e42878cda73efdbd13157091/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9a3087e2e42878cda73efdbd13157091/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/f2dc1b7bf8e409bd7ceb71a1e7dddd0a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/f2dc1b7bf8e409bd7ceb71a1e7dddd0a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9e81e3e56ada8223a23d1ae9e7817cc4/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9e81e3e56ada8223a23d1ae9e7817cc4/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/7edcf538d269a08a898ed1ad470647b7/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/7edcf538d269a08a898ed1ad470647b7/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/5947fd5e886d7aed12eea932883867b6/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/5947fd5e886d7aed12eea932883867b6/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:dagger-lint-aar:2.39.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/5ebaa40dd53af592e1596d66648b5e71/transformed/dagger-lint-aar-2.39.1/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.39.1] /Users/rodrigo.siqueira/gradle/caches/transforms-3/5ebaa40dd53af592e1596d66648b5e71/transformed/dagger-lint-aar-2.39.1/AndroidManifest.xml:18:3-42
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/5c75e073226a6e056bbfe4d6ee6697c0/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/5c75e073226a6e056bbfe4d6ee6697c0/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rodrigo.siqueira/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/6197e8291f5f662bb51701016e7e8a94/transformed/ui-tooling-1.1.0-beta01/AndroidManifest.xml:25:9-27:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/6197e8291f5f662bb51701016e7e8a94/transformed/ui-tooling-1.1.0-beta01/AndroidManifest.xml:27:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/6197e8291f5f662bb51701016e7e8a94/transformed/ui-tooling-1.1.0-beta01/AndroidManifest.xml:26:13-71
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9ddd7e5d34855b96fc65b3d179202cf1/transformed/ui-test-manifest-1.1.0-beta01/AndroidManifest.xml:25:9-27:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9ddd7e5d34855b96fc65b3d179202cf1/transformed/ui-test-manifest-1.1.0-beta01/AndroidManifest.xml:27:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9ddd7e5d34855b96fc65b3d179202cf1/transformed/ui-test-manifest-1.1.0-beta01/AndroidManifest.xml:26:13-63
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/abbdf9b8ad3ed58992c165c328eef049/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9e81e3e56ada8223a23d1ae9e7817cc4/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/rodrigo.siqueira/gradle/caches/transforms-3/9e81e3e56ada8223a23d1ae9e7817cc4/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/abbdf9b8ad3ed58992c165c328eef049/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/abbdf9b8ad3ed58992c165c328eef049/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/abbdf9b8ad3ed58992c165c328eef049/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/abbdf9b8ad3ed58992c165c328eef049/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:27:13-67
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/abbdf9b8ad3ed58992c165c328eef049/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/abbdf9b8ad3ed58992c165c328eef049/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/abbdf9b8ad3ed58992c165c328eef049/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:32:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/abbdf9b8ad3ed58992c165c328eef049/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:36:9-45:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/abbdf9b8ad3ed58992c165c328eef049/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:39:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/abbdf9b8ad3ed58992c165c328eef049/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:40:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/abbdf9b8ad3ed58992c165c328eef049/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:41:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/abbdf9b8ad3ed58992c165c328eef049/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:38:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/abbdf9b8ad3ed58992c165c328eef049/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:37:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/abbdf9b8ad3ed58992c165c328eef049/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:42:13-44:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/abbdf9b8ad3ed58992c165c328eef049/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:43:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/rodrigo.siqueira/gradle/caches/transforms-3/abbdf9b8ad3ed58992c165c328eef049/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:43:25-88
