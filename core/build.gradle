@@ -1,0 +1,63 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-kapt'
+    id 'org.jetbrains.kotlin.android'
+    id 'dagger.hilt.android.plugin'
+
+
+}
+
+android {
+    namespace 'br.com.core'
+    compileSdk 32
+
+    defaultConfig {
+        minSdk 21
+        targetSdk 32
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+
+    //Kotlin
+    implementation Dependencies.coreKtx
+
+
+    //Retrofit
+    implementation Dependencies.retrofit
+    //Gson Converter
+    implementation Dependencies.gson_converter
+    //Gson
+    implementation Dependencies.gson
+    //OkHttp
+    implementation Dependencies.okhttp
+    //Logging
+    implementation Dependencies.logging
+    //Hilt
+    implementation Dependencies.hilt
+    //HiltCompiler
+    kapt Dependencies.hiltCompiler
+
+    //Test
+    testImplementation Dependencies.jUnit4
+    androidTestImplementation Dependencies.extJunit4
+    androidTestImplementation Dependencies.espressoCore
+
+}
