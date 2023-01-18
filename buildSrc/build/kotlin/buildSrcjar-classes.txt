@@ -1,1 +1,0 @@
-/Users/rodrigo.siqueira/AndroidStudioProjects/Weather/buildSrc/build/classes/kotlin/main/Dependencies.class:/Users/rodrigo.siqueira/AndroidStudioProjects/Weather/buildSrc/build/classes/kotlin/main/Versions.class
