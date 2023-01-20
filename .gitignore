@@ -44,7 +44,7 @@ proguard/
 .idea/caches/build_file_checksums.ser
 .idea/modules.xml
 
-accountservices/.idea
+/.idea
 
 
 # Keystore files
@@ -104,5 +104,4 @@ conf/flavors.gradle
 /.cache/*
 /.cache/
 
-/pix
 .gitmodules

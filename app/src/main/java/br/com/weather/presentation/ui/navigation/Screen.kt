@@ -1,4 +1,4 @@
-package br.com.weather.presentation.ui
+package br.com.weather.presentation.ui.navigation
 
 
 sealed class Screen(val route: String) {
