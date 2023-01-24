@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Weather</string>
+    <string name="navigation_drawer_open">teste</string>
+    <string name="more_options">mais opçao</string>
+    <string name="search">Localizadade</string>
 </resources>

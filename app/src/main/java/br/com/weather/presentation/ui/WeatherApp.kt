@@ -10,7 +10,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import br.com.weather.presentation.ui.navigation.Screen
-import br.com.weather.presentation.ui.realtime.RealtimeCurrentWeatherScreen
+import br.com.weather.presentation.ui.realtime.CurrentWeatherScreen
 import br.com.weather.presentation.ui.theme.WeatherTheme
 
 @Composable
@@ -28,7 +28,7 @@ fun WeatherApp(){
                 composable(
                     route = Screen.RealtimeCurrentWeatherScreen.route
                 ) {
-                    RealtimeCurrentWeatherScreen()
+                    CurrentWeatherScreen()
                 }
 
             }
