@@ -7,6 +7,10 @@ alertas meteorológicos, dados de qualidade do ar, pesquisa de IP e astronomia a
 Este App está em construção o intuito é sair da minha zona de conforto e utilizar as stacks mas recentes do android neste projeto, evoluir e atualizar.
 com um arquitetura escálavel e introduzir vários conceitos de build, CI/CD, Test, etc
 
+### Features
+
+- [x] _this line is italic_
+
 ## Built With 🛠
 - [Kotlin](https://kotlinlang.org/) - Linguagem oficial recomendado para desenvolvimento android e bem manera de desenvolver cheios de açucares que facilita a vida do dev .
 - [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - Para trabalhar com dados asincronos.
