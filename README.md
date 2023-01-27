@@ -10,7 +10,11 @@ com um arquitetura escálavel e introduzir vários conceitos de build, CI/CD, Te
 ### Features
 
 - [x] _Clima em tempo real_
-
+     - [x] _Exibir dados do tempo em Celsos (Graus celso atual, Maxima, Minima, Vento por km/h, Umidade em %, Icone do tempo,Texto da condição do tempo)_
+     - [ ] _Buscar localidade atual para buscar dados do clima por padrão_
+     - [ ] _Fazer pesquisa de alguma localidade._
+     - [ ] _Fazer cache do Clima atual, e definir um padrão para atualizar com api.
+     - [ ] _Diferenciar se está a noite ou de dia._  
 ## Built With 🛠
 - [Kotlin](https://kotlinlang.org/) - Linguagem oficial recomendado para desenvolvimento android e bem manera de desenvolver cheios de açucares que facilita a vida do dev .
 - [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - Para trabalhar com dados asincronos.
