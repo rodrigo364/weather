@@ -9,7 +9,7 @@ com um arquitetura escálavel e introduzir vários conceitos de build, CI/CD, Te
 
 ### Features
 
-- [x] _this line is italic_
+- [x] _Buscar as informações do tempo atual, por default é feito a busca do tempo de sua localidade atual onde se encontra _
 
 ## Built With 🛠
 - [Kotlin](https://kotlinlang.org/) - Linguagem oficial recomendado para desenvolvimento android e bem manera de desenvolver cheios de açucares que facilita a vida do dev .
