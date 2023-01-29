@@ -45,6 +45,7 @@ fun SearchBar(
         BasicTextField(
             value = query,
             onValueChange = onQueryChange,
+
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(15.dp)

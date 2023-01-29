@@ -24,7 +24,7 @@ Column() {
     val state = viewModel.state.value
 
     state.current?.let {
-        Text(text = it.current.condition.icon)
+        CurrentWeatherDetails(it)
     }
 
 

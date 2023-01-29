@@ -7,5 +7,5 @@ import retrofit2.http.Query
 interface RealtimeWeatherService {
 
     @GET("current.json?")
-    suspend fun getCurrentRealTimeWeather(@Query("q") location: String): CurrentWeatherDTO
+    suspend fun getCurrentRealTimeWeather(@Query("q") location: String, @Query("lang") lang: String = "pt" ): CurrentWeatherDTO
 }
