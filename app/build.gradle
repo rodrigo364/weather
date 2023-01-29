@@ -7,12 +7,12 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk DefaultConfigKt.compileSdk
 
     defaultConfig {
         applicationId "br.com.weather"
-        minSdk 21
-        targetSdk 32
+        minSdk DefaultConfigKt.minSdk
+        targetSdk DefaultConfigKt.targetSdk
         versionCode 1
         versionName "1.0"
 
@@ -81,7 +81,12 @@ dependencies {
     //HiltCompiler
     kapt  Dependencies.hiltCompiler
     //hilt viewmodel
-    implementation Dependencies.hilt_lifecycle_view_model
+    kapt Dependencies.hiltCompilerX
+
+    implementation Dependencies.fontsGoogle
+
+    //coil image
+    implementation Dependencies.coil
 
     //module core internal
      implementation project(Dependencies.coreInternal)
@@ -94,47 +99,5 @@ dependencies {
     androidTestImplementation Dependencies.uiComposeTestJunit4
     debugImplementation Dependencies.uiTolling
     debugImplementation Dependencies.uiTestManifest
-//
-//    def composeBom = platform('androidx.compose:compose-bom:2022.12.00')
-//
-//    implementation composeBom
-//    androidTestImplementation composeBom
-//
-//    // Material Design 3
-//    implementation 'androidx.compose.material3:material3:1.0.1'
-//
-//    // Foundation component
-//    implementation 'androidx.compose.foundation:foundation:1.3.1'
-//
-//    //ui
-//    implementation 'androidx.compose.ui:ui:1.3.2'
-//
-//    //Android Preview support
-//    implementation 'androidx.compose.ui:ui-tooling-preview:1.3.2'
-//    debugImplementation 'androidx.compose.ui:ui-tooling:1.3.2'
-//
-//    //UI Tests
-//    androidTestImplementation 'androidx.compose.ui:ui-test-junit4:1.3.2'
-//    debugImplementation 'androidx.compose.ui:ui-test-manifest:1.3.2'
-//
-//    //Integration activities
-//    implementation 'androidx.activity:activity-compose:1.6.1'
-//
-//    //Integration ViewModels
-//    implementation 'androidx.lifecycle:lifecycle-viewmodel-compose:2.5.1'
-//
-//    //Livedata
-//    implementation 'androidx.compose.runtime:runtime-livedata:1.3.2'
-//
-//    implementation 'androidx.core:core-ktx:1.7.0'
-//    implementation 'androidx.appcompat:appcompat:1.5.1'
-//    implementation 'com.google.android.material:material:1.7.0'
-//    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-//    implementation 'androidx.navigation:navigation-fragment-ktx:2.5.3'
-//    implementation 'androidx.navigation:navigation-ui-ktx:2.5.3'
-//
-//    //Test
-//    testImplementation 'junit:junit:4.13.2'
-//    androidTestImplementation 'androidx.test.ext:junit:1.1.4'
-//    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
+
 }

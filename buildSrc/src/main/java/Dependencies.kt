@@ -1,24 +1,38 @@
+import Versions.activityComposeVersion
+import Versions.coilVersion
 import Versions.composeVersion
+import Versions.corektxVersion
+import Versions.espressoCoreVersion
+import Versions.extJunitVersion
+import Versions.fontsGoogleVersion
+import Versions.hiltCompilerVersion
+import Versions.hiltNavigationComposeVersion
+import Versions.junitVersion
+import Versions.lifecycleRuntimektxVersion
+import Versions.material3Version
+import Versions.navigationComposeVersion
+import Versions.viewModelComposeVersion
 
 object Dependencies {
 
 
     //Kotlin
-    const val  coreKtx = "androidx.core:core-ktx:1.7.0"
+    const val  coreKtx = "androidx.core:core-ktx:$corektxVersion"
 
-    //Compose
+    //Compose UI
     const val composeUi =  "androidx.compose.ui:ui:$composeVersion"
+    //Compose - Ui Tooling-Preview
     const val  uiTollingPreview =  "androidx.compose.ui:ui-tooling-preview:$composeVersion"
 
-    //Material
-    const val  material3 = "androidx.compose.material3:material3:1.0.0-alpha01"
+    //Material 3
+    const val  material3 = "androidx.compose.material3:material3:$material3Version"
 
-    //Android core
-    const val lifecycleRuntimeKtx = "androidx.lifecycle:lifecycle-runtime-ktx:2.3.1"
-    const val  activityCompose = "androidx.activity:activity-compose:1.3.1"
-    const val viewModelCompose  = "androidx.lifecycle:lifecycle-viewmodel-compose:1.0.0-alpha07"
-    const val navigationCompose = "androidx.navigation:navigation-compose:2.4.0-alpha08"
-    const val hiltNavigationCompose = "androidx.hilt:hilt-navigation-compose:1.0.0-alpha03"
+    /*Android core*/
+    const val lifecycleRuntimeKtx = "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycleRuntimektxVersion"
+    const val  activityCompose = "androidx.activity:activity-compose:$activityComposeVersion"
+    const val viewModelCompose  = "androidx.lifecycle:lifecycle-viewmodel-compose:$viewModelComposeVersion"
+    const val navigationCompose = "androidx.navigation:navigation-compose:$navigationComposeVersion"
+    const val hiltNavigationCompose = "androidx.hilt:hilt-navigation-compose:$hiltNavigationComposeVersion"
     //Retrofit
     const val retrofit = "com.squareup.retrofit2:retrofit:${Versions.retrofitVersion}"
     //Gson Converter
@@ -34,18 +48,23 @@ object Dependencies {
     //dagger hilt
     const val hilt = "com.google.dagger:hilt-android:${Versions.hiltVersion}"
     const val hiltCompiler =  "com.google.dagger:hilt-compiler:${Versions.hiltVersion}"
-    //hilt viewmodel
-    const val hilt_lifecycle_view_model = "androidx.hilt:hilt-lifecycle-viewmodel:${Versions.hiltLifecycleViewModel}"
+    const val hiltCompilerX = "androidx.hilt:hilt-compiler:$hiltCompilerVersion"
+
+    //android fonts compose
+    const val fontsGoogle = "androidx.compose.ui:ui-text-google-fonts:$fontsGoogleVersion"
+    //coil
+    const val coil = "io.coil-kt:coil-compose:$coilVersion"
+
 
     //internal libs
     const val coreInternal = ":core"
 
 
     //tests libs
-    const val jUnit4 = "junit:junit:4.13.2"
+    const val jUnit4 = "junit:junit:$junitVersion"
     const val  jUnitJupiter = "org.junit.jupiter:junit-jupiter"
-    const val extJunit4 = "androidx.test.ext:junit:1.1.3"
-    const val  espressoCore = "androidx.test.espresso:espresso-core:3.4.0"
+    const val extJunit4 = "androidx.test.ext:junit:$extJunitVersion"
+    const val  espressoCore = "androidx.test.espresso:espresso-core:$espressoCoreVersion"
     const val  uiComposeTestJunit4 = "androidx.compose.ui:ui-test-junit4:$composeVersion"
     const val uiTolling =  "androidx.compose.ui:ui-tooling:$composeVersion"
     const val uiTestManifest =  "androidx.compose.ui:ui-test-manifest:$composeVersion"
