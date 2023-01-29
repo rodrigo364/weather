@@ -10,7 +10,7 @@ com um arquitetura escálavel e introduzir vários conceitos de build, CI/CD, Te
 ### Features
 
 - [x] _Clima em tempo real_
-     - [x] _Exibir dados do tempo em Celsos (Graus celso atual, Maxima, Minima, Vento por km/h, Umidade em %, Icone do tempo,Texto da condição do tempo)_
+     - [x] _Exibir dados do tempo em Celsos (Graus celso atual, Vento por km/h, Umidade em %, Icone do tempo,Texto da condição do tempo)_
      - [ ] _Buscar localidade atual para buscar dados do clima por padrão_
      - [ ] _Fazer pesquisa de alguma localidade._
      - [ ] _Fazer cache do Clima atual, e definir um padrão para atualizar com api._
