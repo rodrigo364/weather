@@ -20,7 +20,7 @@ com um arquitetura escálavel e introduzir vários conceitos de build, CI/CD, Te
 - [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - Para trabalhar com dados asincronos.
 - [Flow](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/-flow/) - Fluxo de dados para emitir valores sequencialmente.
 - [Compose](https://developer.android.com/jetpack) - O Jetpack Compose é um kit de ferramentas moderno para criar IUs nativas
-
+- [Coil](https://coil-kt.github.io/coil/compose/) - Para trabalhar com imagens loading, carregar imagens da internet
 - [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) - Coleção de bibliotecas que ajudam você a projetar aplicativos robustos, testáveis e sustentáveis.
     - [LiveData](https://developer.android.com/topic/libraries/architecture/livedata) - Objetos de dados que notificam exibições quando o banco de dados subjacente é alterado.
     - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - Stores UI-related data that isn't destroyed on UI changes.
